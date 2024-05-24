@@ -77,7 +77,7 @@ class Comedian:
                     break
 
 def advanced():
-    file_path = Path("./challenges/the_basics/jokes.txt")
+    file_path = Path("./challenges/the_basics/jokes/jokes.txt")
     jokes = JokeFactory().get_jokes_from_file(file_path=file_path)
     Comedian("Samantha Giggles").tell_jokes(jokes)
     
